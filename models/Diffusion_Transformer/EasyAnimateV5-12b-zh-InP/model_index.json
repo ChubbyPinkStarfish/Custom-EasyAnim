@@ -1,0 +1,41 @@
+{
+  "_class_name": "EasyAnimatePipeline_Multi_Text_Encoder",
+  "_diffusers_version": "0.31.0.dev0",
+  "feature_extractor": [
+    null,
+    null
+  ],
+  "requires_safety_checker": true,
+  "safety_checker": [
+    null,
+    null
+  ],
+  "scheduler": [
+    "diffusers",
+    "DDPMScheduler"
+  ],
+  "text_encoder": [
+    "transformers",
+    "BertModel"
+  ],
+  "text_encoder_2": [
+    "transformers",
+    "T5EncoderModel"
+  ],
+  "tokenizer": [
+    "transformers",
+    "BertTokenizer"
+  ],
+  "tokenizer_2": [
+    "transformers",
+    "T5Tokenizer"
+  ],
+  "transformer": [
+    "diffusers",
+    "Transformer2DModel"
+  ],
+  "vae": [
+    "diffusers",
+    "AutoencoderKL"
+  ]
+}
